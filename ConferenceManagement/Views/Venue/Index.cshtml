@@ -1,0 +1,105 @@
+﻿<!-- Views/Venue/Index.cshtml -->
+@model IEnumerable<ConferenceManagement.Models.Venue>
+
+@{
+    ViewData["Title"] = "Venues";
+}
+
+<!-- Hero Section -->
+<div class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white">
+    <div class="container mx-auto px-4 py-16">
+        <div class="max-w-3xl">
+            <h1 class="text-4xl font-bold mb-4">Our Venues</h1>
+            <p class="text-xl opacity-90 mb-8">Discover perfect spaces for your next event</p>
+            <a href="@Url.Action("Create", "Venue")"
+               class="bg-white text-indigo-600 px-6 py-3 rounded-lg font-semibold hover:bg-indigo-50 transition duration-300">
+                Add New Venue
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Filter Section -->
+<div class="bg-white shadow-sm border-b">
+    <div class="container mx-auto px-4 py-4">
+        <div class="flex flex-wrap gap-4 items-center">
+            <div class="flex items-center space-x-2">
+                <label class="text-gray-600">Layout:</label>
+                <select class="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    <option>All Layouts</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+            </div>
+            <div class="flex items-center space-x-2">
+                <label class="text-gray-600">Type:</label>
+                <select class="border rounded-lg px-3 py-2 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                    <option>All Types</option>
+                    <option>Physical</option>
+                    <option>Virtual</option>
+                </select>
+            </div>
+            <div class="flex-grow"></div>
+            <div class="flex items-center space-x-2">
+                <input type="search" placeholder="Search venues..."
+                       class="border rounded-lg px-4 py-2 w-64 focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Venues Grid -->
+<div class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        @foreach (var venue in Model)
+        {
+            <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="aspect-w-16 aspect-h-9 bg-gradient-to-br from-indigo-500 to-purple-600">
+                    <div class="flex items-center justify-center text-white text-xl font-bold">
+                        @(venue.IsOnline ? "Virtual Venue" : "Physical Venue")
+                    </div>
+                </div>
+                <div class="p-6">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="px-3 py-1 bg-indigo-100 text-indigo-600 rounded-full text-sm">
+                            @venue.Layout Layout
+                        </span>
+                        <span class="text-gray-500">
+                            <svg class="w-5 h-5 inline-block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            @venue.Address
+                        </span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-center text-gray-700">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                            <span>Capacity: @venue.Capacity people</span>
+                        </div>
+                        <div class="text-gray-600">
+                            <h3 class="font-semibold text-gray-800 mb-2">Facilities:</h3>
+                            <p>@venue.Facilities</p>
+                        </div>
+                    </div>
+                    <div class="mt-6 flex justify-end space-x-3">
+                        <a href="@Url.Action("Details", "Venue", new { id = venue.Id })"
+                           class="text-indigo-600 hover:text-indigo-800 font-medium">
+                            View Details
+                        </a>
+                        <a href="@Url.Action("Edit", "Venue", new { id = venue.Id })"
+                           class="text-gray-600 hover:text-gray-800 font-medium">
+                            Edit
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

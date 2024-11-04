@@ -1,13 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\ConferenceManagement",
-    "\\ConferenceManagement\\bin",
-    "\\ConferenceManagement\\obj",
-    "\\ConferenceManagement\\Pages",
-    "\\ConferenceManagement\\Properties",
-    "\\ConferenceManagement\\wwwroot"
+    ""
   ],
-  "SelectedNode": "\\ConferenceManagement.sln",
   "PreviewInSolutionExplorer": false
 }
