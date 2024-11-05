@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\ConferenceManagement.csproj": {}
+    "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\ConferenceManagement.csproj": {
+    "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\ConferenceManagement.csproj",
+        "projectUniqueName": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj",
         "projectName": "ConferenceManagement",
-        "projectPath": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\ConferenceManagement.csproj",
-        "packagesPath": "C:\\Users\\Azm Khan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Azm Khan\\Source\\Repos\\Conference_Management_System\\ConferenceManagement\\obj\\",
+        "projectPath": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj",
+        "packagesPath": "/Users/digaantdogra/.nuget/packages/",
+        "outputPath": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Azm Khan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/digaantdogra/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
