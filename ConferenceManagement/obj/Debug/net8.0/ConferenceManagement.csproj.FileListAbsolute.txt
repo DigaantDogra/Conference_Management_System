@@ -1,31 +1,62 @@
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\appsettings.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.staticwebassets.runtime.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.exe
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.deps.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.runtimeconfig.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.dll
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.pdb
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.AssemblyInfoInputs.cache
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.AssemblyInfo.cs
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.csproj.CoreCompileInputs.cache
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.RazorAssemblyInfo.cache
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.RazorAssemblyInfo.cs
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.sourcelink.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.ConferenceManagement.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.ConferenceManagement.props
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ConferenceManagement.props
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ConferenceManagement.props
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\scopedcss\bundle\ConferenceManagement.styles.css
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\scopedcss\projectbundle\ConferenceManagement.bundle.scp.css
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.dll
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\refint\ConferenceManagement.dll
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.pdb
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.genruntimeconfig.cache
-C:\Users\Azm Khan\Source\Repos\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ref\ConferenceManagement.dll
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/appsettings.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.staticwebassets.runtime.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.exe
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.deps.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.runtimeconfig.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.dll
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.pdb
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.AssemblyInfoInputs.cache
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.AssemblyInfo.cs
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.csproj.CoreCompileInputs.cache
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.RazorAssemblyInfo.cache
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.RazorAssemblyInfo.cs
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.sourcelink.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.ConferenceManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.build.ConferenceManagement.props
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ConferenceManagement.props
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ConferenceManagement.props
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/scopedcss/bundle/ConferenceManagement.styles.css
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/scopedcss/projectbundle/ConferenceManagement.bundle.scp.css
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.dll
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/refint/ConferenceManagement.dll
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.pdb
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.genruntimeconfig.cache
+C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ref/ConferenceManagement.dll
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/appsettings.Development.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/appsettings.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.staticwebassets.runtime.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.deps.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.runtimeconfig.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.dll
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/bin/Debug/net8.0/ConferenceManagement.pdb
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.AssemblyInfoInputs.cache
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.AssemblyInfo.cs
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.csproj.CoreCompileInputs.cache
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.MvcApplicationPartsAssemblyInfo.cache
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.RazorAssemblyInfo.cache
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.RazorAssemblyInfo.cs
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.sourcelink.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets.build.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets.development.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.ConferenceManagement.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.build.ConferenceManagement.props
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ConferenceManagement.props
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ConferenceManagement.props
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/scopedcss/bundle/ConferenceManagement.styles.css
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/scopedcss/projectbundle/ConferenceManagement.bundle.scp.css
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.dll
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/refint/ConferenceManagement.dll
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.pdb
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.genruntimeconfig.cache
+/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ref/ConferenceManagement.dll

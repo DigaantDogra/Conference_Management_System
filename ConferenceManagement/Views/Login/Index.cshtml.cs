@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace ConferenceManagement.Views.Login
 {
-    public class Login : PageModel
+    public class Index : PageModel
     {
-        private readonly ILogger<Login> _logger;
+        private readonly ILogger<Index> _logger;
 
-        public Login(ILogger<Login> logger)
+        public Index(ILogger<Index> logger)
         {
             _logger = logger;
         }

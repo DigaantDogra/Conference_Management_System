@@ -1,5 +1,5 @@
 @page
-@model ConferenceManagement.Views.Register.Register
+@model ConferenceManagement.Models.User
 @{
     ViewData["Title"] = "Register";
 }
@@ -7,5 +7,16 @@
 <h1>@ViewData["Title"]</h1>
 
 <div>
-    
+    <form asp-action="Register" method="post">
+    <div>
+        <label asp-for="Username">Username:</label>
+        <input asp-for="Username"/>
+    </div>
+    <div>
+        <label asp-for="HashPass">Password:</label>
+        <input asp-for="HashPass" type="password" />
+    </div>
+    <button type="submit">Register</button>
+    <p style="color: red">@ViewBag.Message</p>
+</form>
 </div>

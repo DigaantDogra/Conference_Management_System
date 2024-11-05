@@ -72,6 +72,8 @@ namespace ConferenceManagement.Controllers
             return View(viewModel);
         }
 
+        public IActionResult Login()=>View();
+
         public IActionResult Privacy()
         {
             return View();

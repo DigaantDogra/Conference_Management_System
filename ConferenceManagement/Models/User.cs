@@ -19,5 +19,10 @@ namespace ConferenceManagement.Models
         public void DeleteBookings(){ // parameter is Booking type
 
         }// not needed after data prisistance
+
+        // testing purpose section -----------------
+
+        public required string Username { get; set; }
+        public required string HashPass { get; set; } 
     }
 }
