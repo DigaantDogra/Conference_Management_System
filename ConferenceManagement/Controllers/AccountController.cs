@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 
 namespace ConferenceManagement.Controllers
 {
-    [Route("[controller]")]
     public class AccountController : Controller
     {
         private readonly ILogger<AccountController> _logger;
@@ -20,7 +19,7 @@ namespace ConferenceManagement.Controllers
 
         public IActionResult Login()
         {
-            return View();
+            return View("Login");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

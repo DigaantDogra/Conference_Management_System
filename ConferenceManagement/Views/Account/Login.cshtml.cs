@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace ConferenceManagement.Views.Login
+namespace ConferenceManagement.Views.Account
 {
-    public class Index : PageModel
+    public class Login : PageModel
     {
-        private readonly ILogger<Index> _logger;
+        private readonly ILogger<Login> _logger;
 
-        public Index(ILogger<Index> logger)
+        public Login(ILogger<Login> logger)
         {
             _logger = logger;
         }

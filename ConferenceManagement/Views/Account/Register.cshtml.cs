@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace ConferenceManagement.Views.Register
+namespace ConferenceManagement.Views.Account
 {
     public class Register : PageModel
     {
