@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Conference Management</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Add custom styles -->
     <style>
         .gradient-bg {
@@ -40,7 +42,7 @@
                     <a href="@Url.Action("Index", "Session")" class="text-gray-700 hover:text-indigo-600 font-medium">Sessions</a>
                     <a href="@Url.Action("Index", "Venue")" class="text-gray-700 hover:text-indigo-600 font-medium">Venues</a>
                     <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-200">Create Event</a>
-                    <a href="@Url.Action("Login", "Account")" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-200">Sign-in</a>
+                    <a href="@Url.Action("Register", "Account")" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-200">Sign-in</a>
                 </div>
 
                 <!-- Mobile menu button -->
