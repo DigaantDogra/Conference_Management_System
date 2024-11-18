@@ -60,3 +60,38 @@ C:/Users/Azm Khan/Source/Repos/Conference_Management_System/ConferenceManagement
 /Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.pdb
 /Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ConferenceManagement.genruntimeconfig.cache
 /Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/Debug/net8.0/ref/ConferenceManagement.dll
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.staticwebassets.runtime.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.staticwebassets.endpoints.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.exe
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.deps.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.runtimeconfig.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.dll
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\bin\Debug\net8.0\ConferenceManagement.pdb
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.AssemblyInfoInputs.cache
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.AssemblyInfo.cs
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.csproj.CoreCompileInputs.cache
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.RazorAssemblyInfo.cache
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.RazorAssemblyInfo.cs
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.sourcelink.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\scopedcss\bundle\ConferenceManagement.styles.css
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\scopedcss\projectbundle\ConferenceManagement.bundle.scp.css
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.ConferenceManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.ConferenceManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.ConferenceManagement.props
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ConferenceManagement.props
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ConferenceManagement.props
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.dll
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\refint\ConferenceManagement.dll
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.pdb
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ConferenceManagement.genruntimeconfig.cache
+C:\Users\Owner\source\C# work\Conference_Management_System\ConferenceManagement\obj\Debug\net8.0\ref\ConferenceManagement.dll

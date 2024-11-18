@@ -1,0 +1,85 @@
+@model ConferenceManagement.Models.Event
+
+@{
+    ViewData["Title"] = "Create Event";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Create New Event</h2>
+    <form asp-action="Create" asp-controller="Event" method="post" class="p-4 border rounded shadow-lg bg-white">
+        <!-- Event Title -->
+        <div class="form-group mb-3">
+            <label asp-for="Title" class="form-label">Event Title</label>
+            <input asp-for="Title" class="form-control" placeholder="Enter event title" required />
+            <span asp-validation-for="Title" class="text-danger small"></span>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group mb-3">
+            <label asp-for="Description" class="form-label">Description</label>
+            <textarea asp-for="Description" class="form-control" placeholder="Enter event description" rows="3" required></textarea>
+            <span asp-validation-for="Description" class="text-danger small"></span>
+        </div>
+
+        <!-- Start Date -->
+        <div class="form-group mb-3">
+            <label asp-for="DateFrom" class="form-label">Start Date</label>
+            <input asp-for="DateFrom" type="date" class="form-control" required />
+            <span asp-validation-for="DateFrom" class="text-danger small"></span>
+        </div>
+
+        <!-- End Date -->
+        <div class="form-group mb-3">
+            <label asp-for="DateTo" class="form-label">End Date</label>
+            <input asp-for="DateTo" type="date" class="form-control" required />
+            <span asp-validation-for="DateTo" class="text-danger small"></span>
+        </div>
+
+        <!-- Conference Type -->
+        <div class="form-group mb-3">
+            <label asp-for="ConferenceType" class="form-label">Conference Type</label>
+            <select asp-for="ConferenceType" class="form-select" required>
+                <option value="" disabled selected>Select Type</option>
+                @foreach (var type in Enum.GetValues(typeof(ConferenceManagement.Models.ConferenceType)))
+                {
+                    <option value="@type">@type</option>
+                }
+            </select>
+            <span asp-validation-for="ConferenceType" class="text-danger small"></span>
+        </div>
+
+        <!-- Venue -->
+        <div class="form-group mb-3">
+            <label asp-for="VenueId" class="form-label">Venue</label>
+            <select asp-for="VenueId" class="form-select" required>
+                <option value="" disabled selected>Select Venue</option>
+                @foreach (var venue in ViewBag.Venues)
+                {
+                    <option value="@venue.Id">@venue.Address</option>
+                }
+            </select>
+            <span asp-validation-for="VenueId" class="text-danger small"></span>
+        </div>
+
+        <!-- Attendee Limit -->
+        <div class="form-group mb-3">
+            <label asp-for="AttendeeLimit" class="form-label">Attendee Limit</label>
+            <input asp-for="AttendeeLimit" type="number" class="form-control" placeholder="Enter attendee limit" min="1" required />
+            <span asp-validation-for="AttendeeLimit" class="text-danger small"></span>
+        </div>
+
+        <!-- Event Fee -->
+        <div class="form-group mb-3">
+            <label asp-for="Fee" class="form-label">Event Fee</label>
+            <input asp-for="Fee" type="number" step="0.01" class="form-control" placeholder="Enter fee" min="0" required />
+            <span asp-validation-for="Fee" class="text-danger small"></span>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100">Create Event</button>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

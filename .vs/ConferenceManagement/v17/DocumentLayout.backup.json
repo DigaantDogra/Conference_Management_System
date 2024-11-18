@@ -1,12 +1,215 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\event\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\event\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\review\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\review\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\owner\\source\\c# work\\conference_management_system\\conferencemanagement\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Review\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Review\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Review\\Create.cshtml",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Review\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:44:03.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Review\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Review\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Review\\Create.cshtml.cs",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Review\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:44:01.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAswG0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:43:15.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "ConferenceManagement\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:42:59.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Event\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Event\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Event\\Create.cshtml",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Event\\Create.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:40:10.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Controllers\\EventController.cs",
+              "RelativeToolTip": "ConferenceManagement\\Controllers\\EventController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAowEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:39:36.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAvwJUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:47:58.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Event\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Event\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Views\\Event\\Create.cshtml.cs",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Event\\Create.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:44:11.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ConferenceManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ConferenceManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-18T06:44:57.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ConferenceManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:49:53.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Owner\\source\\C# work\\Conference_Management_System\\ConferenceManagement\\Models\\Event.cs",
+              "RelativeToolTip": "ConferenceManagement\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:35:25.59Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

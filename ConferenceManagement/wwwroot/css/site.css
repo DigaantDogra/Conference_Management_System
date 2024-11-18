@@ -1,22 +1,86 @@
-html {
-  font-size: 14px;
+/* Form Styling */
+.form-group {
+    margin-bottom: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1rem;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+    input:focus,
+    textarea:focus,
+    select:focus {
+        border-color: #258cfb;
+        box-shadow: 0 0 0 0.2rem rgba(37, 140, 251, 0.25);
+    }
+
+/* Validation Styling */
+.text-danger {
+    font-size: 0.875rem;
+    color: #dc3545;
+}
+
+/* Button Styling */
+button, .btn {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #258cfb;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 4px;
+    transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+    button:hover, .btn:hover {
+        background-color: #1d75d3;
+    }
+
+    button:focus, .btn:focus {
+        box-shadow: 0 0 0 0.2rem rgba(37, 140, 251, 0.25);
+    }
+
+    button:disabled, .btn:disabled {
+        opacity: 0.65;
+        cursor: not-allowed;
+    }
+
+/* General Spacing and Layout */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h2, h3 {
+    font-weight: bold;
+    color: #258cfb;
+    margin-bottom: 1rem;
 }
 
 body {
-  margin-bottom: 60px;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
 }
