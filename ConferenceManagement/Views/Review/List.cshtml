@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ConferenceManagement.Models.Review>
+
+@{
+    ViewData["Title"] = "Reviews";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Reviews for @ViewBag.Event.Title</h2>
+    <div class="list-group">
+        @foreach (var review in Model)
+        {
+            <div class="list-group-item mb-3 border rounded shadow-sm">
+                <div class="d-flex justify-content-between">
+                    <h5 class="mb-1">@review.UserName</h5>
+                    <small class="text-muted">@review.DatePosted.ToString("MMM dd, yyyy")</small>
+                </div>
+                <p class="mb-1">@review.Content</p>
+                <small class="text-muted">Rating: @review.Rating / 5</small>
+            </div>
+        }
+    </div>
+</div>

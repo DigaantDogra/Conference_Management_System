@@ -121,5 +121,28 @@ namespace ConferenceManagement.Services
                 EventId = 1
             }
         };
+
+        public static List<Review> Reviews = new List<Review>
+{
+            new Review
+            {
+                Id = 1,
+                EventId = 1,
+                UserName = "John Doe",
+                Content = "This event was amazing! Highly recommended.",
+                Rating = 5,
+                DatePosted = DateTime.Now.AddDays(-3)
+            },
+            new Review
+            {
+                Id = 2,
+                EventId = 1,
+                UserName = "Jane Smith",
+                Content = "Good event but could be better organized.",
+                Rating = 3,
+                DatePosted = DateTime.Now.AddDays(-1)
+            }
+        };
+
     }
 }
