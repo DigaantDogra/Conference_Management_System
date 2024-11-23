@@ -7,7 +7,7 @@
     <title>@ViewData["Title"] - Conference Management</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
     <!-- Add custom styles -->
     <style>
         .gradient-bg {
@@ -58,6 +58,7 @@
     </header>
 
     <main class="flex-grow">
+        <partial name="_Notifications"></partial>
         @RenderBody()
     </main>
 

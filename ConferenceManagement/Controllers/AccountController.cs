@@ -32,6 +32,7 @@ namespace ConferenceManagement.Controllers
         public IActionResult Register(User user)
         {
             if(ModelState.IsValid){
+                TempData["success"] = $"Welcome {user.Username}";
                 return RedirectToAction("Index","Home");
             }
             return View();
