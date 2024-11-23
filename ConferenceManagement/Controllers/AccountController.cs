@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using ConferenceManagement.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Logging;
 
 namespace ConferenceManagement.Controllers
@@ -17,13 +19,21 @@ namespace ConferenceManagement.Controllers
             _logger = logger;
         }
 
+        [HttpPost]
         public IActionResult Login()
         {
             return View();
         }
 
-        public IActionResult Register()
+        public IActionResult Register(){
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Register(User user)
         {
+            if(ModelState.IsValid){
+                return RedirectToAction("Index","Home");
+            }
             return View();
         }
 

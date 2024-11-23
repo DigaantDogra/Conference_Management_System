@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj": {}
+    "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/Project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj": {}
   },
   "projects": {
-    "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj": {
+    "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/Project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj",
+        "projectUniqueName": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/Project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj",
         "projectName": "ConferenceManagement",
-        "projectPath": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj",
+        "projectPath": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/Project/Conference_Management_System/ConferenceManagement/ConferenceManagement.csproj",
         "packagesPath": "/Users/digaantdogra/.nuget/packages/",
-        "outputPath": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/NET 8_project/Conference_Management_System/ConferenceManagement/obj/",
+        "outputPath": "/Users/digaantdogra/Library/CloudStorage/OneDrive-Personal/Projects/Semester 5/Project/Conference_Management_System/ConferenceManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/digaantdogra/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
