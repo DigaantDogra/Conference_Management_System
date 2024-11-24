@@ -1,0 +1,65 @@
+﻿@model ConferenceManagement.ViewModels.PaymentViewModel
+@{
+    ViewData["Title"] = "Payment Checkout";
+}
+
+<div class="container mx-auto px-4 py-8">
+    <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden">
+        <div class="p-8">
+            <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold mb-1">
+                Payment Details
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">@Model.EventTitle</h2>
+
+            <div class="mb-6">
+                <div class="text-gray-600 mb-2">Amount to Pay:</div>
+                <div class="text-3xl font-bold text-gray-900">
+                    @Model.Amount.ToString("C")
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <button onclick="initiatePaypal()"
+                        class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-lg flex items-center justify-center">
+                    Pay with PayPal
+                </button>
+
+                <a href="@Url.Action("BankTransfer", new { bookingId = Model.BookingId })"
+                   class="w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-3 px-4 rounded-lg flex items-center justify-center">
+                    Bank Transfer
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function initiatePaypal() {
+            const data = {
+                bookingId: @Model.BookingId,
+                provider: 'PayPal'
+            };
+
+            fetch('@Url.Action("InitiatePayment", "Payment")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                },
+                body: JSON.stringify(data)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        window.location.href = data.redirectUrl;
+                    } else {
+                        alert('Payment initialization failed: ' + data.message);
+                    }
+                })
+                .catch(error => {
+                    alert('An error occurred: ' + error);
+                });
+        }
+    </script>
+}

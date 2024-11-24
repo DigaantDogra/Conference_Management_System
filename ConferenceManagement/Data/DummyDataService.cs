@@ -1,5 +1,4 @@
-﻿// Services/DummyDataService.cs
-using ConferenceManagement.Models;
+﻿using ConferenceManagement.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +7,8 @@ namespace ConferenceManagement.Services
 {
     public static class DummyDataService
     {
-        public static List<Event> Events = new List<Event>
+        // First, initialize Events as it's used in Bookings
+        public static List<Event> Events { get; } = new List<Event>
         {
             new Event
             {
@@ -51,7 +51,31 @@ namespace ConferenceManagement.Services
             }
         };
 
-        public static List<Venue> Venues = new List<Venue>
+        // Then initialize Bookings using Events
+        public static List<Booking> Bookings { get; } = new List<Booking>
+        {
+            new Booking
+            {
+                BookingId = 1,
+                TicketT = TicketType.Regular,
+                Capacity = 1,
+                EventBook = Events[0] // Using index instead of First()
+            },
+            new Booking
+            {
+                BookingId = 2,
+                TicketT = TicketType.VIP,
+                Capacity = 2,
+                EventBook = Events[1] // Using index instead of Skip(1).First()
+            }
+        };
+
+        public static Booking GetBookingById(int id)
+        {
+            return Bookings.FirstOrDefault(b => b.BookingId == id);
+        }
+
+        public static List<Venue> Venues { get; } = new List<Venue>
         {
             new Venue
             {
@@ -82,7 +106,7 @@ namespace ConferenceManagement.Services
             }
         };
 
-        public static List<Session> Sessions = new List<Session>
+        public static List<Session> Sessions { get; } = new List<Session>
         {
             new Session
             {
@@ -122,7 +146,7 @@ namespace ConferenceManagement.Services
             }
         };
 
-        public static List<Review> Reviews = new List<Review>
+public static List<Review> Reviews = new List<Review>
 {
             new Review
             {
