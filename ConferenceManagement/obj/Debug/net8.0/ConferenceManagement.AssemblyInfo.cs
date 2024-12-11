@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConferenceManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c1f8c2d2c35e50d005f9fbeb52fbbaf9c0d5137")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a315051ecf30ddb324371d11fdb5e6af6f1e064")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConferenceManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConferenceManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
