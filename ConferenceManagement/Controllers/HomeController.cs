@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ConferenceManagement.Config;
 using ConferenceManagement.Models;
-using System;
+using MySql.Data.MySqlClient;
 using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace ConferenceManagement.Controllers
 {
@@ -9,70 +11,54 @@ namespace ConferenceManagement.Controllers
     {
         public IActionResult Index()
         {
-            // Create dummy data
-            var viewModel = new HomeViewModel
+            var viewModel = new HomeViewModel();
+
+            using (MySqlConnection connection = new MySqlConnection(DatabaseConfig.ConnectionString))
             {
-                FeaturedEvents = new List<Event>
+                connection.Open();
+
+                // Fetch Featured Events
+                MySqlCommand eventCommand = new MySqlCommand(
+                    "SELECT Id, Title, Description, DateFrom, DateTo, ConferenceType, VenueName FROM Events",
+                    connection);
+
+                using (var reader = eventCommand.ExecuteReader())
                 {
-                    new Event
+                    while (reader.Read())
                     {
-                        Id = 1,
-                        Title = "Tech Innovation Summit 2024",
-                        Description = "Annual technology conference showcasing latest innovations",
-                        DateFrom = DateTime.Now.AddMonths(1),
-                        DateTo = DateTime.Now.AddMonths(1).AddDays(3),
-                        ConferenceType = ConferenceType.Hybrid,
-                        VenueName = "City Center Convention Hall"
-                    },
-                    new Event
-                    {
-                        Id = 2,
-                        Title = "Digital Marketing Workshop",
-                        Description = "Intensive workshop on digital marketing strategies",
-                        DateFrom = DateTime.Now.AddMonths(2),
-                        DateTo = DateTime.Now.AddMonths(2).AddDays(1),
-                        ConferenceType = ConferenceType.InPerson,
-                        VenueName = "Innovation Hub"
-                    },
-                    new Event
-                    {
-                        Id = 3,
-                        Title = "Virtual Developer Conference",
-                        Description = "Online conference for software developers",
-                        DateFrom = DateTime.Now.AddMonths(3),
-                        DateTo = DateTime.Now.AddMonths(3).AddDays(2),
-                        ConferenceType = ConferenceType.Online,
-                        VenueName = "Virtual Platform"
-                    }
-                },
-                FeaturedSpeakers = new List<Speaker>
-                {
-                    new Speaker { Name = "John Doe", EventName = "Tech Summit 2024" },
-                    new Speaker { Name = "Jane Smith", EventName = "Digital Marketing Workshop" },
-                    new Speaker { Name = "Mike Johnson", EventName = "AI Conference" },
-                    new Speaker { Name = "Sarah Wilson", EventName = "Web Development Summit" }
-                },
-                Testimonials = new List<Testimonial>
-                {
-                    new Testimonial
-                    {
-                        Text = "An amazing conference that exceeded all expectations!",
-                        Author = "John Smith",
-                        Role = "CEO, Tech Corp"
-                    },
-                    new Testimonial
-                    {
-                        Text = "The best tech conference I've attended this year.",
-                        Author = "Jane Doe",
-                        Role = "Software Engineer"
+                        viewModel.FeaturedEvents.Add(new Event
+                        {
+                            Id = reader.GetInt32(0),
+                            Title = reader.GetString(1),
+                            Description = reader.GetString(2),
+                            DateFrom = reader.GetDateTime(3),
+                            DateTo = reader.GetDateTime(4),
+                            ConferenceType = Enum.Parse<ConferenceType>(reader.GetString(5)),
+                            VenueName = reader.GetString(6)
+                        });
                     }
                 }
-            };
+
+                // Fetch Featured Speakers
+                MySqlCommand speakerCommand = new MySqlCommand(
+                    "SELECT Name, EventName FROM Speakers",
+                    connection);
+
+                using (var reader = speakerCommand.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        viewModel.FeaturedSpeakers.Add(new Speaker
+                        {
+                            Name = reader.GetString(0),
+                            EventName = reader.GetString(1)
+                        });
+                    }
+                }
+            }
 
             return View(viewModel);
         }
-
-        public IActionResult Login()=>View();
 
         public IActionResult Privacy()
         {
@@ -82,7 +68,7 @@ namespace ConferenceManagement.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View();
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

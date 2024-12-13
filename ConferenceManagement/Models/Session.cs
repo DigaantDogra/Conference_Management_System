@@ -21,9 +21,9 @@ namespace ConferenceManagement.Models
         public double Duration { get; set; }
         public DateTime StartTime { get; set; }
         public string SessionTitle { get; set; }
-        public string Description { get; set; }
+        public string? Description { get; set; }
         public int EventId { get; set; }
-        public Event Event { get; set; }
+        public Event? Event { get; set; }
     }
 
 }

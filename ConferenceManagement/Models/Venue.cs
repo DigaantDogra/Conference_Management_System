@@ -1,12 +1,5 @@
 ﻿namespace ConferenceManagement.Models
 {
-    public enum Layout
-    {
-        Small,
-        Medium,
-        Large
-    }
-
     public class Venue
     {
         public int Id { get; set; }
@@ -15,5 +8,12 @@
         public string Facilities { get; set; }
         public Layout Layout { get; set; }
         public bool IsOnline { get; set; }
+    }
+
+    public enum Layout
+    {
+        Small,
+        Medium,
+        Large
     }
 }

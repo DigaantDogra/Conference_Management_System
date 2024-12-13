@@ -1,6 +1,6 @@
-// Initialised by Digaant
-
+using ConferenceManagement.Data;
 using ConferenceManagement.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +10,12 @@ builder.Services.AddHttpClient<PayPalService>();
 builder.Services.AddHttpClient<OpenStreetMapService>();
 builder.Services.AddScoped<PayPalService>();
 builder.Services.AddScoped<OpenStreetMapService>();
+builder.Services.AddControllersWithViews();
+
+// Configure MySQL connection
+builder.Services.AddDbContext<ApplicationDBContext>(options =>
+    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
 
 var app = builder.Build();
 
@@ -17,7 +23,6 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
@@ -32,6 +37,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"); // Add MVC default route
 
-app.MapRazorPages(); 
+app.MapRazorPages();
 
 app.Run();
