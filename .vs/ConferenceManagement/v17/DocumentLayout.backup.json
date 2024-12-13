@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\controllers\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,11 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DatabaseConfig.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Config\\DatabaseConfig.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Config\\DatabaseConfig.cs",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Program.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Program.cs",
@@ -140,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\appsettings.json",
               "RelativeDocumentMoniker": "ConferenceManagement\\appsettings.json",
@@ -153,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "VenueController.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\VenueController.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\VenueController.cs",
@@ -166,20 +166,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ConferenceManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADcAAAAA/bBYRI4lwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T06:49:53.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ConferenceManagement\\wwwroot\\css\\site.css",
@@ -192,7 +192,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DummyDataService.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Data\\DummyDataService.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Data\\DummyDataService.cs",

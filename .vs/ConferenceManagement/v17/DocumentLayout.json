@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|solutionrelative:conferencemanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B20A40B-012A-4039-92E3-97681DE322A1}|ConferenceManagement\\ConferenceManagement.csproj|c:\\users\\azm khan\\source\\repos\\conference_management_system\\conferencemanagement\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -98,21 +98,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatabaseConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Config\\DatabaseConfig.cs",
-              "RelativeDocumentMoniker": "ConferenceManagement\\Config\\DatabaseConfig.cs",
-              "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Config\\DatabaseConfig.cs",
-              "RelativeToolTip": "ConferenceManagement\\Config\\DatabaseConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T22:05:34.582Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -126,8 +113,51 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ConferenceManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAvwHsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T06:47:58.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ConferenceManagement\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T06:49:53.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Config\\DatabaseConfig.cs",
+              "RelativeDocumentMoniker": "ConferenceManagement\\Config\\DatabaseConfig.cs",
+              "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Config\\DatabaseConfig.cs",
+              "RelativeToolTip": "ConferenceManagement\\Config\\DatabaseConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:05:34.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Program.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Program.cs",
@@ -140,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\appsettings.json",
               "RelativeDocumentMoniker": "ConferenceManagement\\appsettings.json",
@@ -153,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "VenueController.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\VenueController.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\VenueController.cs",
@@ -166,20 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ConferenceManagement\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ConferenceManagement\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T06:49:53.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ConferenceManagement\\wwwroot\\css\\site.css",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DummyDataService.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Data\\DummyDataService.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Data\\DummyDataService.cs",
@@ -205,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Review\\Create.cshtml",
               "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Review\\Create.cshtml",
@@ -231,19 +248,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ConferenceManagement\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAvwHsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T06:47:58.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Event\\Create.cshtml.cs",
@@ -257,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Shared\\_Layout.cshtml",
@@ -270,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Azm Khan\\source\\repos\\Conference_Management_System\\ConferenceManagement\\Views\\Review\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "ConferenceManagement\\Views\\Review\\Create.cshtml.cs",
