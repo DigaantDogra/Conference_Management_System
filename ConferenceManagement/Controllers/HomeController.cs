@@ -22,7 +22,7 @@ namespace ConferenceManagement.Controllers
                         DateFrom = DateTime.Now.AddMonths(1),
                         DateTo = DateTime.Now.AddMonths(1).AddDays(3),
                         ConferenceType = ConferenceType.Hybrid,
-                        VenueName = "City Center Convention Hall"
+                        
                     },
                     new Event
                     {
@@ -32,7 +32,7 @@ namespace ConferenceManagement.Controllers
                         DateFrom = DateTime.Now.AddMonths(2),
                         DateTo = DateTime.Now.AddMonths(2).AddDays(1),
                         ConferenceType = ConferenceType.InPerson,
-                        VenueName = "Innovation Hub"
+                        
                     },
                     new Event
                     {
@@ -42,7 +42,7 @@ namespace ConferenceManagement.Controllers
                         DateFrom = DateTime.Now.AddMonths(3),
                         DateTo = DateTime.Now.AddMonths(3).AddDays(2),
                         ConferenceType = ConferenceType.Online,
-                        VenueName = "Virtual Platform"
+                       
                     }
                 },
                 FeaturedSpeakers = new List<Speaker>

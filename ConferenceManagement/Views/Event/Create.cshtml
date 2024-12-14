@@ -6,8 +6,7 @@
 
 <div class="container mt-5">
     <h2 class="text-center mb-4 text-primary">Create New Event</h2>
-    <p class="text-center text-muted mb-4">Fill out the form below to add a new event to the system.</p>
-    <form asp-action="Create" asp-controller="Event" method="post" class="p-5 border rounded shadow-lg bg-light">
+    <form  method="post" class="p-5 border rounded shadow-lg bg-light">
         <!-- Event Title -->
         <div class="form-group mb-4">
             <label asp-for="Title" class="form-label font-weight-bold">Event Title</label>
@@ -80,7 +79,3 @@
         <button type="submit" class="btn btn-primary btn-block rounded py-2 font-weight-bold">Create Event</button>
     </form>
 </div>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}

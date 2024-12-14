@@ -1,66 +1,47 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ConferenceManagement.Models;
-using ConferenceManagement.Services;
+using ConferenceManagement.Data;
+using System.Linq;
 
 namespace ConferenceManagement.Controllers
 {
     public class EventController : Controller
     {
-        // GET: Event/Create
-        public IActionResult Create()
+        private readonly ApplicationDbContext _context;
+
+        public EventController(ApplicationDbContext context)
         {
-            try
-            {
-                // Load venue data for dropdown
-                ViewBag.Venues = DummyDataService.Venues;
-
-                // Return the Create view
-                return View();
-            }
-            catch (Exception ex)
-            {
-                // Log the exception (logging can be implemented)
-                Console.WriteLine($"Error in Create (GET): {ex.Message}");
-
-                // Redirect to an error page or show an error message
-                return RedirectToAction("Error", "Home");
-            }
+            _context = context;
         }
 
-        // POST: Event/Create
+        public IActionResult Create()
+        {
+            var venues = _context.Venues.ToList();
+            ViewBag.Venues = venues;
+            return View();
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Event newEvent)
+        public IActionResult Create(Event newEvent, Venue newVenue)
         {
-            if (!ModelState.IsValid)
+            /*if (!ModelState.IsValid)
             {
-                // Validation failed, reload venue data and return the view with errors
-                ViewBag.Venues = DummyDataService.Venues;
+                ViewBag.Venues = _context.Venues.ToList();
                 return View(newEvent);
-            }
+            }*/
 
             try
             {
-                // Generate a new unique ID for the event
-                newEvent.Id = DummyDataService.Events.Any()
-                    ? DummyDataService.Events.Max(e => e.Id) + 1
-                    : 1;
-
-                // Add the new event to the dummy data service
-                DummyDataService.Events.Add(newEvent);
-
-                // Redirect to the home page or event listing after successful creation
+                _context.Events.Add(newEvent);
+                _context.SaveChanges();
                 TempData["SuccessMessage"] = "Event created successfully!";
                 return RedirectToAction("Index", "Home");
             }
             catch (Exception ex)
             {
-                // Log the exception (logging can be implemented)
-                Console.WriteLine($"Error in Create (POST): {ex.Message}");
-
-                // Show an error message and reload the view
-                ViewBag.ErrorMessage = "An error occurred while creating the event. Please try again.";
-                ViewBag.Venues = DummyDataService.Venues;
+                ViewBag.ErrorMessage = $"Error saving event: {ex.Message}";
+                ViewBag.Venues = _context.Venues.ToList();
                 return View(newEvent);
             }
         }

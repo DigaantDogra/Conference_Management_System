@@ -47,7 +47,5 @@ namespace ConferenceManagement.Models
 
         public List<Session> Sessions { get; set; }
 
-        [StringLength(200)]
-        public string VenueName { get; set; }
     }
 }

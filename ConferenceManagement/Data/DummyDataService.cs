@@ -21,7 +21,7 @@ namespace ConferenceManagement.Services
                 VenueId = 1,
                 AttendeeLimit = 500,
                 Fee = 299.99,
-                VenueName = "City Center Convention Hall"
+                
             },
             new Event
             {
@@ -34,7 +34,7 @@ namespace ConferenceManagement.Services
                 VenueId = 2,
                 AttendeeLimit = 100,
                 Fee = 149.99,
-                VenueName = "Innovation Hub"
+                
             },
             new Event
             {
@@ -47,7 +47,7 @@ namespace ConferenceManagement.Services
                 VenueId = 3,
                 AttendeeLimit = 1000,
                 Fee = 99.99,
-                VenueName = "Virtual Platform"
+                
             }
         };
 

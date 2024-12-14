@@ -9,5 +9,6 @@ namespace ConferenceManagement.Data
 
         public DbSet<Event> Events { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Venue> Venues { get; set; }
     }
 }

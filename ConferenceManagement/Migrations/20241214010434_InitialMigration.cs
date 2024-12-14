@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ConferenceManagement.Migrations
 {
     /// <inheritdoc />
-    public partial class eventsDBContext : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,7 +16,7 @@ namespace ConferenceManagement.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Venue",
+                name: "Venues",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -31,7 +31,7 @@ namespace ConferenceManagement.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Venue", x => x.Id);
+                    table.PrimaryKey("PK_Venues", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -50,17 +50,15 @@ namespace ConferenceManagement.Migrations
                     ConferenceType = table.Column<int>(type: "int", nullable: false),
                     VenueId = table.Column<int>(type: "int", nullable: false),
                     AttendeeLimit = table.Column<int>(type: "int", nullable: false),
-                    Fee = table.Column<double>(type: "double", nullable: false),
-                    VenueName = table.Column<string>(type: "varchar(200)", maxLength: 200, nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
+                    Fee = table.Column<double>(type: "double", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Events", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Events_Venue_VenueId",
+                        name: "FK_Events_Venues_VenueId",
                         column: x => x.VenueId,
-                        principalTable: "Venue",
+                        principalTable: "Venues",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 })
@@ -150,7 +148,7 @@ namespace ConferenceManagement.Migrations
                 name: "Events");
 
             migrationBuilder.DropTable(
-                name: "Venue");
+                name: "Venues");
         }
     }
 }

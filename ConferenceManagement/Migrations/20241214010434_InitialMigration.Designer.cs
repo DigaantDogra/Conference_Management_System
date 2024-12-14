@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ConferenceManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241211002605_eventsDBContext")]
-    partial class eventsDBContext
+    [Migration("20241214010434_InitialMigration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,11 +60,6 @@ namespace ConferenceManagement.Migrations
 
                     b.Property<int>("VenueId")
                         .HasColumnType("int");
-
-                    b.Property<string>("VenueName")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("varchar(200)");
 
                     b.HasKey("Id");
 
@@ -174,7 +169,7 @@ namespace ConferenceManagement.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Venue");
+                    b.ToTable("Venues");
                 });
 
             modelBuilder.Entity("ConferenceManagement.Models.Event", b =>

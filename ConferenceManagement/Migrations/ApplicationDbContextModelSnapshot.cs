@@ -58,11 +58,6 @@ namespace ConferenceManagement.Migrations
                     b.Property<int>("VenueId")
                         .HasColumnType("int");
 
-                    b.Property<string>("VenueName")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("varchar(200)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("VenueId");
@@ -171,7 +166,7 @@ namespace ConferenceManagement.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Venue");
+                    b.ToTable("Venues");
                 });
 
             modelBuilder.Entity("ConferenceManagement.Models.Event", b =>
