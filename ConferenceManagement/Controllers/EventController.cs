@@ -23,13 +23,8 @@ namespace ConferenceManagement.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create(Event newEvent, Venue newVenue)
+        public IActionResult Create(Event newEvent)
         {
-            /*if (!ModelState.IsValid)
-            {
-                ViewBag.Venues = _context.Venues.ToList();
-                return View(newEvent);
-            }*/
 
             try
             {
